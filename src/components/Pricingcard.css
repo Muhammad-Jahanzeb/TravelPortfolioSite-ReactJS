@@ -1,0 +1,77 @@
+.pricing{
+    /* width:100%; */
+    padding: 6em 1rem;
+    background-color: rgb(7, 7, 7);
+}
+
+.card-container{
+    max-width: 1030px;
+    margin: auto;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+.card{
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgb(43, 41, 41);
+}
+
+.card h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+    color:white;
+}
+
+.card .bar{
+    border-bottom: 1px solid white;
+    width:10%;
+    margin: 1.5rem auto;
+    display:block;
+}
+
+.btc{
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight:500;
+}
+
+.card p{
+    padding:1rem 0;
+    font-size: 1.2rem;
+}
+
+.card h3{
+    font-size:1.8rem;
+}
+
+.card .btn{
+    display: block;
+    width:30%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:650px) {
+    .card-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}

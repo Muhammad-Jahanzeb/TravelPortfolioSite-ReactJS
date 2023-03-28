@@ -1,0 +1,39 @@
+form{
+    display: flelx;
+    flex-direction: column;
+    padding: 1rem;
+    margin:auto;
+    max-width:600px
+}
+
+label{
+    padding-bottom:10%;
+    color:white;
+}
+
+input, textarea{
+    width:100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    font-family:'Outfit'sans-serif;
+    background: rgba(255,255,255,.1);
+    border-color: rgba(255,255,255,.1);
+    color:white;
+}
+
+.form .btn{
+    margin-top: 3rem;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+.form .btn:hover{
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
